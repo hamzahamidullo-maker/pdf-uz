@@ -1,6 +1,6 @@
 python-telegram-bot==20.7
 Flask
-Pillow
-fpdf
+fpdf2==2.7.8
 python-docx
 openpyxl
+Pillow==10.0.1
