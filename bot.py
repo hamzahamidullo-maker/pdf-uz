@@ -660,7 +660,7 @@ async def admin_manage_callback(update: Update, context: ContextTypes.DEFAULT_TY
     admin_text += "\n📝 **Admin qo'shish:**\n"
     admin_text += "`/addadmin [user_id]` - Yangi admin qo'shish\n"
     admin_text += "`/removeadmin [user_id]` - Adminni olib tashlash\n"
-    admin_text += "\n📊 **Statistika:**\n"
+    admin_text += "\n📊 **Statistika: **\n"
     admin_text += "`/stats` - To'liq statistika\n"  
     admin_text += "`/broadcast [xabar]` - Hamma foydalanuvchilarga xabar yuborish\n"
     
