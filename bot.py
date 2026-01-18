@@ -655,7 +655,7 @@ async def admin_manage_callback(update: Update, context: ContextTypes.DEFAULT_TY
     admin_text = "⚙️ **ADMINLAR RO'YXATI**\n\n"
     
     for i, admin in enumerate(admins, 1):
-        admin_text += f"{i}. ID: {admin[0]} | @{admin[1] or "Noma'lum"}\n"
+        admin_text += f"{i}. ID: {admin[0]} | @{admin[1] or 'Nomalum'}\n"
     
     admin_text += "\n📝 **Admin qo'shish:**\n"
     admin_text += "`/addadmin [user_id]` - Yangi admin qo'shish\n"
